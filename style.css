@@ -1,0 +1,129 @@
+body {
+    background-color: black;
+    color:white;
+    background-image: url("./image/web.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+    font-family: 'Roboto', sans-serif;
+}
+
+#left-nav{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+}
+#left-nav div{
+    margin-right: 5%;
+}
+#right-nav{
+    width: fit-content;
+}
+.navigation{
+    padding: 1% 3% 1%  0%;
+}
+
+#picGallery img {
+    margin-left: 4%;
+    margin-top: 5%;
+    border-radius: 15px;
+}
+
+#workContainer{
+    width: 100%;
+}
+
+#aboutshow{
+    margin-top: 4%;
+}
+#head{
+    margin-top: 3%;
+}
+#mainhead{
+    margin-top: 2%;
+}
+#container{
+    padding-left: 3%;
+}
+#bottomDiv{
+    margin-top: 4%;
+
+}
+#bottomPara{
+    margin-top: 2%;
+}
+#bottomContent{
+    margin-top: 4%;
+}
+#edu{
+    font-style: italic;
+    margin-top: 3%;
+}
+#mainContent{
+    font-weight: bold;
+}
+#bottonContentContacts{
+    margin-top: 3%;
+}
+#contentContacts{
+    margin-top: -1%;
+}
+a.dlink:link {
+    color: tomato;
+    text-decoration: none;
+}
+a.dlink:visited{
+    color: green;
+    text-decoration: none;
+}
+a.dlink:hover{
+    color: hotpink;
+    text-decoration: none;
+}
+a.dlink:active{
+    color: greenyellow;
+    text-decoration: none;
+}
+
+@media(min-width:760px){
+ 
+
+    .profileImageContainer {
+        margin-left: 10%;
+        position: relative;
+        width: 50%;    
+    }
+    .profileImage {
+        opacity: 1;
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: .5s ease;
+        backface-visibility: hidden;
+      } 
+    .middle {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+    }
+    .container:hover .profileImage {
+        opacity: 0.3;
+    } 
+    .container:hover .profileImage {
+        opacity: 1;
+    }
+    .text {
+        background-color: #4CAF50;
+        color: white;
+        font-size: 16px;
+        padding: 16px 32px;
+    }
+
+    
+
+
+}
