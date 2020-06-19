@@ -118,11 +118,8 @@ function showWork(){
       </h4>
       <ul class="ulSpace" style="list-style-type:disc;">
         <li id="bottomContent">
-          I teamed up to develop a website for a church working on the front-end with REACT.JS
-          <div><a class="dlink" href="https://www.egfm.org" target="_blank">Visit the church website</a></div></br>
-        </li>
-        <li>
-          I also teamed up to develop an event registration website for a ministry program with REACT.JS.
+          I teamed up to develop an e-registration website for a church by working on the front-end with REACT.JS
+          <div><a class="dlink" href="https://www.events.egfm.org" target="_blank">Visit the church e-registration platform</a></div></br>
         </li>
         <li>
           Finally, I also collaborated to design the front-end interface of an e-library website with MATERIAL U.I library and REACT.JS
