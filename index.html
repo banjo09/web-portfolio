@@ -1,61 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@100;400;500;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@100;400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div id="container">
-        <div id="headbar" style="display: flex; justify-content: space-between;">
-            <div id="left-nav">
-                <div id="home" onclick="showHome();" class="navigation" style="cursor:pointer;color:tomato">
-                  Home
-                </div>
-                <div id="about" onclick="showAbout()" class="navigation" style="cursor:pointer">
-                  About
-                </div>
-                <div id="work" onclick="showWork()" class="navigation" style="cursor:pointer">
-                  Experience
-                </div>
-                <div id="skills" onclick="showSkills()" class="navigation" style="cursor:pointer">
-                  Skills
-                </div>
-                <div id="contact" onclick="showContacts()" class="navigation" style="cursor:pointer">
-                  Contact
-                </div>
-            </div>    
+  <div id="container">
+    <div id="headbar" style="display: flex; justify-content: space-between;">
+      <div id="left-nav">
+        <div id="home" onclick="showHome();" class="navigation" style="cursor:pointer;color:tomato">
+          Home
         </div>
-        <div id="aboutshow">
+        <div id="about" onclick="showAbout()" class="navigation" style="cursor:pointer">
+          About
+        </div>
+        <div id="work" onclick="showWork()" class="navigation" style="cursor:pointer">
+          Experience
+        </div>
+        <div id="skills" onclick="showSkills()" class="navigation" style="cursor:pointer">
+          Skills
+        </div>
+        <div id="contact" onclick="showContacts()" class="navigation" style="cursor:pointer">
+          Contact
+        </div>
+      </div>    
+    </div>
+    <div id="helpContainer">
+      <div id="contentContainer">
+        <div id="aboutshow" >
           <div id="homeContainer"> 
             <div>
               <h4 id="head">Hi, I'm Banjo.</h4>
               <h1 id="mainhead">
-                Full-stack </br>software </br>developer.
+                Full-stack software developer.Vercel
               </h1>
               <div id="bottomDiv">
-                Multidisciplinary developer who hacks at, makes and occasionally breaks things.
+                Multidisciplinary developer who hacks at, makes and improve things.
               </div>    
-              <p>
-                I escaped last night from the land of death and sin.<br/>
-                I am making my way to Life and peace in the Holy Ghost. Will you help me?
-              </p>
               <p id="bottomParas">
                 <!-- ${date} -->
               </p>
               <div id="picGallery">
-                <img src="./image/compassion.jpg" alt="Pictures with friends" style="width:120px;height:150px;">
-                <img src="./image/give.jpg" alt="Pictures with friends" style="width:120px;height:150px;"><br/>
-                <img src="./image/focus.jpg" alt="Pictures with friends" style="width:120px;height:150px;">
-                <img src="./image/tolerate.jpg" alt="Pictures with friends" style="width:120px;height:150px;">
+                <img src="./image/compassion.jpg" alt="Pictures with friends" style="width:180px;height:230px;">
+                <img src="./image/tolerate.jpg" alt="Pictures with friends" style="width:180px;height:230px;">
+                <img src="./image/focus.jpg" alt="Pictures with friends" style="width:180px;height:230px;">
+                <img src="./image/give.jpg" alt="Pictures with friends" style="width:180px;height:230px;">
               </div>
             </div>
-          </div>      
+          </div>
         </div>
+        <div id="imageContainer" >
+          <!-- <img src="./image/third.png" alt="Pictures with friends" style="width:200px;height:auto;">       -->
+          <div class="profileImageContainer">
+            <img src="./image/obey.GIF" alt="At Work in Zyonel" class="profileImage" style="width:200px;height:200px;border-radius: 50%;">
+            <div class="middle">
+              <div class="text">Olabanjo Olaleye</div>
+            </div>
+          </div>
+          <!-- </div> -->
+        </div>
+      </div>
     </div>
-    <script src="main.js"></script>
+    <div id="mobilePicGallery">
+      <img src="./image/compassion.jpg" alt="Pictures with friends" style="width:100px;height:120px;">
+      <img src="./image/give.jpg" alt="Pictures with friends" style="width:100px;height:120px;"><br/>
+      <img src="./image/focus.jpg" alt="Pictures with friends" style="width:100px;height:120px;">
+      <img src="./image/tolerate.jpg" alt="Pictures with friends" style="width:100px;height:120px;">
+    </div>  
+  </div>
+  <script src="main.js"></script>
 </body>
 </html>
 
