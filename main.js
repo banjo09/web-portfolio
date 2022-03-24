@@ -1,4 +1,4 @@
-window.location.replace("https://olabanjoolaleye.vercel.app/");
+// window.location.replace("https://olabanjoolaleye.vercel.app/");
 // var home = document.getElementById('about');
 const date = new Date();
 document.getElementById("bottomParas").innerHTML = date;
